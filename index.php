@@ -7,6 +7,7 @@
 		<meta charset="utf-8" />
 		<link href="css/style.css" rel="stylesheet" />
 		<title>ACM NIT Surat Chapter | Home</title>
+		<script src="//use.edgefonts.net/ubuntu:n3,i3,n4,i4,n5,i5,n7,i7:all.js"></script> 
 	</head>
 	<body>
 		<div id="theContainer">
@@ -40,3 +41,4 @@
 		<script src="js/main.js"></script>
 	</body>
 </html>
+

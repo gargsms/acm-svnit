@@ -1,3 +1,4 @@
+//replacing tagNames to tagnames in html, just to avoid collision or mis-understood var leak
 'use strict';
 
 window.onload = positionTheContainer;
@@ -12,7 +13,7 @@ window.addEventListener('keydown',function(event){
 });
 
 function positionTheContainer(){
-	var theContainer = document.getElementById('theContainer');
+	var theContainer = document.getElementById('thecontainer');
 	var width = window.innerWidth;
 	var distanceFromCentre = width - 900;
 	if(distanceFromCentre < 0)
@@ -65,13 +66,10 @@ function applyClassExcept(node, extraClass, classFinal, nodeList){			//LOL extra
 
 function nBSExcept(param){								//this function has to do the most tedious and daunting task of managing shit
 	if(param == 'none'){
-		toggleDropdown(1);
-		setTimeout("slideBubble("+marginLeft+", -30, 1)", 20);
-		applyClass('nav_child', document.getElementsByClassName('nav_child_after-select'));
-		applyClass('hidden', theContent);
 	}
 }
 
 function stringify(obj){								//hehehe. Similar to JSON.stringify()
 	return '"'+obj+'"';
 }
+
