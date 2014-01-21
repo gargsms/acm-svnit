@@ -1,8 +1,8 @@
 //replacing tagNames to tagnames in html, just to avoid collision or mis-understood var leak
 'use strict';
 
-window.onload = positionTheContainer;
-window.addEventListener('resize', positionTheContainer);
+//window.onload = positionTheContainer; 				//not needed anymore
+//window.addEventListener('resize', positionTheContainer);
 window.addEventListener('keydown',function(event){
 	event = event || e;
 	switch(event.keyCode){
@@ -12,7 +12,7 @@ window.addEventListener('keydown',function(event){
 	}
 });
 
-function positionTheContainer(){
+/*function positionTheContainer(){
 	var theContainer = document.getElementById('thecontainer');
 	var width = window.innerWidth;
 	var distanceFromCentre = width - 900;
@@ -20,7 +20,7 @@ function positionTheContainer(){
 		theContainer.style.cssText = "left: 5px";
 	else
 		theContainer.style.cssText = "left: 50%;margin-left: -450px";
-}
+}*/
 
 //more JS goes here
 //and here :p
