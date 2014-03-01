@@ -1,0 +1,242 @@
+*{margin: 0;padding: 0}
+
+body{
+	width: 100%;
+	min-width: 810px;
+	height: auto;
+	border-top: 10px solid #E7E7E7;
+	font-family: ubuntu, sans-serif;
+}
+
+#thecontainer{
+	width: 100%;
+	min-width: 810px;
+}
+
+#logohead{
+	width: 800px;
+	padding: 10px 0;
+	height: auto;
+}
+
+#svnitlogo , #acmlogo{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+#svnitlogo{
+	background: url('../img/svnitlogo.jpg');
+}
+
+#acmlogo{
+	background: url('../img/acm-chapter-logo.png');
+}
+
+#acmtext{
+	color: #4FA1ED;
+	text-align: center;
+	font-weight: 400;
+	font-size: 50px;
+	padding: 0px 35px;
+	line-height: 100px;
+	float: left;
+}
+
+#headerblock{
+	width: 800px;
+}
+
+#navigationpanel
+{
+	list-style-type: none;
+}
+#navigationpanel li{
+	width: 155px;
+	text-align: center;
+	display: inline-block;
+}
+
+#navigationpanel li a{
+	font-size: 25px;
+	color: #777;
+	text-decoration: none;
+}
+
+#navigationpanel li.active{
+	background: #EEEEEE;
+	border-top: 3px solid #4FA1ED;
+}
+
+#navigationpanel li:hover{
+	background: #EEEEEE;
+	border-top: 3px solid orange;
+}
+
+#titlebar{
+	position: relative;
+	width: 100%;
+	min-width: 810px;
+	height: 80px;
+	background: #4FA1ED;
+}
+
+#titlebartext{
+	width: 800px;
+	padding-left: 100px;
+	font-family: ubuntu, sans-serif;
+	font-weight: 200;
+	font-size: 40px;
+	line-height: 80px;
+	color: #ffffff;
+}
+
+.datablock{
+	width: 800px;
+	padding: 20px;
+}
+
+#picsContainer{
+	width: inherit;
+	height: 600px;
+	padding: 0;
+}
+
+.picsNav{
+	display: inline-block;
+	
+}
+
+#prev{
+	position: absolute;
+	width: 100px;
+	height: 100%;
+	left: 0;
+}
+
+#prev:hover{
+	background: url('../img/prev.png');
+}
+
+#next{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 100%;
+}
+
+#next:hover{
+	background: url('../img/next.png');
+}
+
+.heading{
+	font-size: 25px;
+	color: #4FA1ED;
+	padding: 5px 0;
+}
+
+.content{
+	color: #777;
+}
+
+.member{
+	position: relative;
+	width: 200px;
+	font-size: 20px;
+	color: #777;
+	display: inline-block;
+}
+
+.designation{
+	position: relative;
+	width: 200px;
+	font-size: 20px;
+	color: #777;
+	display: inline-block;
+}
+
+.custominput{
+	width: 300px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	color: #777;
+	margin: 2px;
+	background: #EEEEEE;
+	border: none;
+	border-radius: 5px;
+}
+
+#addresscontainer{
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 275px;
+	font-size: 15px;
+	color: #777;
+}
+
+#thefooter{
+	height: 100px;
+	width: 100%;
+	min-width: 810px;
+	position: relative;
+	background: #EEEEEE;
+	color: #777;
+}
+
+#copyleft{
+	left: 100px;
+	top: 10px;
+	background: inherit;
+	float: left;
+}
+
+#extlinks{
+	margin-left: 100px;
+	float:left;
+}
+
+#plugins{
+	position: relative;
+	top: 10px;
+	float: right;
+}
+
+#fb , #t, #gp {
+	width: 48px;
+	height: 48px;
+	padding: 2px;
+	display: inline-block;
+}
+
+#fb{
+	background: url('../img/favicon_fb_unattended.png');
+}
+
+#t{
+	background: url('../img/favicon_t_unattended.png');
+}
+
+#gp{
+	background: url('../img/favicon_gp_unattended.png');
+}
+
+.clear{
+	clear:both;
+}
+
+.fullhr{
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 0px;
+	border: 1px solid #E7E7E7;
+}
+
+.middle{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
