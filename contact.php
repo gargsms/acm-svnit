@@ -21,7 +21,7 @@ include_once('header.php');
 			Say something
 		</div>
 		<div class="content">
-			<form action="message_submit.php" method="POST">
+			<form action="saySomething.php" method="POST">
 				<span class="member" style="width:100px;text-align:right">
 					Name:
 				</span>
@@ -30,20 +30,23 @@ include_once('header.php');
 				</span>
 				<br />
 				<span class="member" style="width:100px;text-align:right">
-					E-mail:
+					E-mail *:
 				</span>
 				<span>
-					<input type="email" name="email" class="custominput" />
+					<input type="email" name="email" required class="custominput" />
 				</span>
 				<br />
 				<div style="position:relative">
 					<span class="member" style="position:absolute;top:0;width:100px;text-align:right">
-						Message:
+						Message *:
 					</span>
-					<textarea rows="5" cols="40" wrap="physical" name="message" style="position:relative;left:103px;width:auto;height:auto" class="custominput">
+					<textarea rows="5" cols="40" wrap="physical" name="message" required style="position:relative;left:103px;width:auto;height:auto" class="custominput">
 					</textarea>
 				</div>
-			</form>^^the feature is being implemented
+				<span style="position: relative; left: 105px">
+					<input type="submit" value="Submit" />
+				</span>
+			</form>
 			<div id="addresscontainer">
 				<b>
 					Snail Mail:
